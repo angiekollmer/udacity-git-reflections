@@ -10,3 +10,8 @@ What value do you think it offers?
 	The working directory contains all the files in the folder.  The repository 
 	contains the files you've commited and history about them in metadate .git folder.
 	
+How can you use the staging area to make sure you have one commit per logical change?
+	If you've made two separate logical changes since your last commit, you can use the
+	staging area to only add files for one change, then commit them, then add the files
+	for the second change and commit them separately.  This assumes that each change 
+	touched separate files.
