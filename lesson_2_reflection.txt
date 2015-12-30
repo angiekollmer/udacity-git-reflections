@@ -15,3 +15,12 @@ How can you use the staging area to make sure you have one commit per logical ch
 	staging area to only add files for one change, then commit them, then add the files
 	for the second change and commit them separately.  This assumes that each change 
 	touched separate files.
+
+What are some situations when branches would be helpful in keeping your history organized? 
+How would branches help?
+	Branches would be helpful when you want to try an experiment but also want to be able
+	to easily revert to your production code, or if you want two similar but different
+	versions of the code.
+	Branches help because they make it easy to revert to specific states using human
+	understandable names instead of having to remember specific commit IDs.  Also with 
+	branches you can make bug fixes on easily on master if necessary.
