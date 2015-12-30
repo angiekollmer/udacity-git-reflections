@@ -24,3 +24,7 @@ How would branches help?
 	Branches help because they make it easy to revert to specific states using human
 	understandable names instead of having to remember specific commit IDs.  Also with 
 	branches you can make bug fixes on easily on master if necessary.
+	
+How do the diagrams help you visualize the branch structure?
+	They make it easy to visualize which commits are in which branch and where the branches
+	have common points and where they diverge from one another.
