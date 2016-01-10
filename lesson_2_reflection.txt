@@ -33,4 +33,8 @@ What is the result of merging two branches together?
 Why do we represent it in the diagram the way we do?
 	The result of merging two branches together is that the changes made in both branches
 	will all be present in the new branch.
-	I don't know why it's represented in the diagram like it is.  Not sure what this question means.
+	I don't know why it's represented in the diagram like it is.  Not sure what this question means.do 
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	A pro about Git's automatic merging is that it makes it easier for the user when the merge
+	happens automatically and they do not need to inspect all the files.  I can't think of any cons.
