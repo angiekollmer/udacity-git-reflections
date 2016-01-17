@@ -11,14 +11,14 @@ stay up-to-date with your remote rephository?
 	you'd be constantly having to merge their changes into yours.
 	
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
-		Forks are used to create your own copy on github of someone else's existing repository
-		on github.  This allows you to make your own changes to your copy of the repository.
-		Clones allow you to copy a repository.  Repositories can be cloned from github or from 
-		a local repository.
-		Branches allow you to name a series of commits on a specific repository.  You can have
-		many branches on a repository.  The different branches might be used for different
-		development efforts or experiments while maintaining a working copy of the production code,
-		if the repository is for code. 
+	Forks are used to create your own copy on github of someone else's existing repository
+	on github.  This allows you to make your own changes to your copy of the repository.
+	Clones allow you to copy a repository.  Repositories can be cloned from github or from 
+	a local repository.
+	Branches allow you to name a series of commits on a specific repository.  You can have
+	many branches on a repository.  The different branches might be used for different
+	development efforts or experiments while maintaining a working copy of the production code,
+	if the repository is for code. 
 		 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	You can work offline, but still have the latest copy of the remote branch available locally.
@@ -27,3 +27,13 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	Well, you could use a different form of version control.  But, githubs pull requests
 	are very handy for collaboration and for reviewing changes, so having to do without
 	that would make things harder.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits 
+does each approach have?
+	You want to make changes in a separate branch whenever you want to maintain your production
+	branch as is while you make other changes.  Also when you want others to review your 
+	changes via pull requests.  This proceess is more complicated, but allows your more 
+	flexibility when you are collaborating to merge other people's changes into your own work
+	and vice versa.
+	The benefits of making changes directly on master is that the process is less complicated.
+	
