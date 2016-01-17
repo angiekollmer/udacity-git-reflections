@@ -18,4 +18,7 @@ Describe the differences between forks, clones, and branches. When would you use
 		Branches allow you to name a series of commits on a specific repository.  You can have
 		many branches on a repository.  The different branches might be used for different
 		development efforts or experiments while maintaining a working copy of the production code,
-		if the repository is for code.
+		if the repository is for code. 
+		
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	You can work offline, but still have the latest copy of the remote branch available locally.
