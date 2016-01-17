@@ -19,6 +19,11 @@ Describe the differences between forks, clones, and branches. When would you use
 		many branches on a repository.  The different branches might be used for different
 		development efforts or experiments while maintaining a working copy of the production code,
 		if the repository is for code. 
-		
+		 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	You can work offline, but still have the latest copy of the remote branch available locally.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Well, you could use a different form of version control.  But, githubs pull requests
+	are very handy for collaboration and for reviewing changes, so having to do without
+	that would make things harder.
